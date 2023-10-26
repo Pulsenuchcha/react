@@ -1,26 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name "viewport" content="width=device-width", initial-scale="1.0">
-    <title>Portfolio Profile</title>
-    <!--........................Custom css link....................-->
-    <link rel="stylesheet" href="./css/styles.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal portfolio Website</title>
+  <!-- ....................Custom Css Link.................... -->
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <!--........................Top Navbar....................-->
-    <nav>
-        <div class="container nav-container">
-            <a href="" class="logo">Nuch-cha Boonyato</a>
-            <ul class="nav-link">
-                <li><a href="#About">About</a></li>
-                <li><a href="#Experience">Experience</a></li>
-                <li><a href="#Project">Project</a></li>
-                <li><a href="#Contact" >Contact</a></li>
-            </ul>
-    </nav>
-    <!--........................Botton Navbar....................-->
-    <!--........................Header Secter....................-->
+  <!-- ....................Start Nav Bar.................... -->
+  <nav>
+    <div class="container nav-container">
+      <a href="" class="logo">Nuch-cha Boonyato</a>
+      <ul class="nav-links">
+        <li><a href="#About">About</a></li>
+        <li><a href="#Experiences">Experiences</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- ....................End Nav Bar.................... -->
+
+
+  <!-- ....................Start Header Section.................... -->
+  <header>
+    <div class="container header-container">
+      <div class="header-left">
+        <img src="./assets/1.png" alt="Profile Picture">
+      </div>
+      <div class="header-right">
+        <p><b>Hello, I'm</b></p>
+        <h1>Nuch-cha</h1>
+        <h2>Full Stack Developer</h2>
+        <div class="header-action-aria">
+          <a href="" class="btn" download="./assets/_CV.pdf">Download CV</a>       
+          <a href="#Contact" class="btn btn-dark">Contact info</a>              
+        </div>
+        <div class="header-social">
+          <a href="http://www.linkedin.com/in/nuch-cha-boonyato-498936285"><img src="./assets/linkedin 2.png" class="icon1"></a>
+          <a href="https://github.com/Pulsenuchcha"><img src="./assets/github 2.png" class="icon1"></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ....................End Header Section.................... -->
+
+
+  <!-- ....................Start About Section.................... -->
+  <section id="About">
+    <p class="heading-p">Get To Know More</p>
+    <h1 class="heading">About Me</h1>
+    <div class="container about-container">
+      <div class="about-left">
+        <img src="./assets/8.png" alt="">
+      </div>
+      <div class="about-right">
+        <div class="basic-edu">
+          <div class="edu-box">
+            <img src="./assets/experience.png" class="icon1">
+            <h4>BootCamp Journey</h4>
+            <p>
+              Generation<br>
+               Junior Software Developer(JSD5)            
+            </p>
+          </div>
+          <div class="edu-box">
+            <img src="./assets/education.png" class="icon1">
+            <h4>Education</h4>
+            <p>
+              Bachelors Degree <br>
+              Faculty of Art(English major)
+            </p>
+          </div>
+        </div>
+        <p>
+          I am a career switcher! I graduated from Srinakharinwirot University,Faculty of Art English major. I was an English teacher for two years. I am enthusiasm for not only user interface design but also server-side development and databases. I'm ready to bring these skills and my newfound passion for coding to create innovative solutions.
+        </p>
+    
+      </div>
+    </div>
+  </section> 
+  <!-- ....................End About Section.................... -->
+
+
+  <!-- ....................Start Experience Section.................... -->
+  <section id="Experiences">
+    <a href="#Experiences" class="arrow"><img src="./img/arrow.png" class="icon1"></a>
+    <p class="heading-p">Explore My</p>
+    <h1 class="heading">Experience</h1>
+    <div class="container experience-container">
+      <div class="experience-box">
+        <h2>Frontend Development</h2>
+        <div class="experience">
+          <div class="ex-div">
+            <img src="./assets/checkmark.png" class="icon1">
+            <div>
+              <h4>HTML</h4>
+              <p>Experienced</p>
+            </div>
+          </div>
+          <div class="ex-div">
+            <img src="./assets/checkmark.png" class="icon1">
+            <div>
+              <h4>CSS</h4>
+              <p>Experienced</p>
+            </div>
+          </div>
+          <div class="ex-div">
+            <img src="./assets/checkmark.png" class="icon1">
+            <div>
+              <h4>SCSS</h4>
+              <p>Experienced</p>
+            </div>
+          </div>
+          <div class="ex-div">
+            <img src="./assets/checkmark.png" class="icon1">
+            <div>
+              <h4>JavaScript</h4>
+              <p>Experienced</p>
+            </div>
+          </div>
+          <div class="ex-div">
+            <img src="./assets/checkmark.png" class="icon1">
+            <div>
+              <h4>Tailwind CSS</h4>
+              <p>Experienced</p>
+            </div>
+          </div>
+          <div class="ex-div">
+            <img src="./assets/checkmark.png" class="icon1">
+            <div>
+              <h4>React</h4>
+              <p>Experienced</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="experience-box">
+        <h2>Backend Development</h2>
+        <div class="experience">
+          <div class="ex-div">
+            <img src="./assets/checkmark.png" class="icon1">
+            <div>
+              <h4>SQL/NoSQL(MongoDB)</h4>
+              <p>Basic</p>
+            </div>
+          </div>
+          <div class="ex-div">
+            <img src="./assets/checkmark.png" class="icon1">
+            <div>
+              <h4>Node JS</h4>
+              <p>Basic</p>
+            </div>
+          </div>
+          <div class="ex-div">
+            <img src="./assets/checkmark.png" class="icon1">
+            <div>
+              <h4>Express JS</h4>
+              <p>Basic</p>
+            </div>
+          </div>
+          <div class="ex-div">
+            <img src="./assets/checkmark.png" class="icon1">
+            <div>
+              <h4>Postman</h4>
+              <p>Basic</p>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ....................End Experience Section.................... -->
+
+
+  <!-- ....................Start Project Section.................... -->
+  <section id="Projects">
+    <a href="#Projects" class="arrow"><img src="./img/arrow.png" class="icon1"></a>
+    <p class="heading-p">Browse My Recent</p>
+    <h1 class="heading">Projects</h1>
+    <div class="container project-container">
+      <div class="project">
+        <img src="./img/project-1.png" alt="">
+        <h3>Project 1</h3>
+        <div class="header-action-aria">
+          <a href="" class="btn">Github</a>
+          <a href="" class="btn">Live Demo</a>
+        </div>
+      </div>
+      <div class="project">
+        <img src="./img/project-2.png" alt="">
+        <h3>Project 2</h3>
+        <div class="header-action-aria">
+          <a href="" class="btn">Github</a>
+          <a href="" class="btn">Live Demo</a>
+        </div>
+      </div>
+      <div class="project">
+        <img src="./img/project-3.png" alt="">
+        <h3>Project 3</h3>
+        <div class="header-action-aria">
+          <a href="" class="btn">Github</a>
+          <a href="" class="btn">Live Demo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ....................End Project Section.................... -->
+
+
+  <!-- ....................Start Contact Section.................... -->
+  <section id="Contact">
+    <a href="#Contact" class="arrow"><img src="./assets/arrow.png" class="icon1"></a>
+    <p class="heading-p">Get in Touch</p>
+    <h1 class="heading">Contact Me</h1>
+    <div class="contact-container container">
+      <div class="email">
+        <img src="./assets/email.png" class="icon1">
+        <a href=""><h5>nuchcha.boonyato@gmail.com</h5></a>
+      </div>
+      <div class="linkedin">
+        <img src="./assets/linkedin 2.png" class="icon1">
+        <a href="http://www.linkedin.com/in/nuch-cha-boonyato-498936285"><h5>Linkedin</h5></a>
+      </div>
+    </div>
+  </section>
+  <!-- ....................End Contact Section.................... -->
+
+
+  <!-- ....................Start Footer Section.................... -->
+  <footer>
+    <ul class="nav-links">
+      <li><a href="#About">About</a></li>
+      <li><a href="#Experiences">Experiences</a></li>
+      <li><a href="#Projects">Projects</a></li>
+      <li><a href="#Contact">Contact</a></li>
+    </ul>
+   
+  </footer>
+  <!-- ....................End Footer Section.................... -->
+
 </body>
 </html>
