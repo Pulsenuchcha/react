@@ -328,6 +328,11 @@ footer .nav-links{
     .experience-container{
       grid-template-columns: 1fr;
     }   
+    .icon1{
+        width: 28px;
+        height: max-content;
+      }
+    }
 }
 /* Max-Width(768px) */
 @media (max-width:768px) {
@@ -395,6 +400,7 @@ footer .nav-links{
   .contact-container {
     flex-direction: column;  
     gap: 1rem;  
+
   }
   /* .......Start footer........*/
   footer{
